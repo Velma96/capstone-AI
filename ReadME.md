@@ -1,8 +1,8 @@
 
-````markdown
+
 # Getting Started with Go (Golang) – A Beginner’s Toolkit
 
----
+
 
 ## 1. Title & Objective
 
@@ -12,7 +12,7 @@
 - **Why did you choose it?** Go is a statically typed, compiled language designed by Google for simplicity, reliability, and efficiency. It's known for its concise syntax, fast compilation times, and excellent built-in support for concurrency and web services. It's a fantastic language for a beginner to learn as it avoids much of the complexity of older languages while being incredibly powerful.
 - **What’s the end goal?** The end goal is to write, compile, and run a simple "Hello, World!" application, and then extend it into a simple HTTP server that responds to web requests.
 
----
+
 
 ## 2. Quick Summary of the Technology
 
@@ -20,7 +20,6 @@
 - **Where is it used?** It is used heavily for cloud-native development, web servers, DevOps tooling, command-line tools, and distributed systems. Famous projects built with Go include Docker, Kubernetes, Terraform, and Caddy.
 - **One real-world example.** When you use a service like Netflix or YouTube, many of the backend services that manage traffic and serve video content are written in Go because of its performance and efficiency in handling millions of concurrent connections.
 
----
 
 ## 3. System Requirements
 
