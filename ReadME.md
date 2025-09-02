@@ -177,7 +177,7 @@ Community:
 
 ## Working Codebase
 
-GitHub repo (placeholder): [https://github.com/your-username/moringa-ai-go-toolkit](https://github.com/your-username/moringa-ai-go-toolkit)
+GitHub repo (placeholder): [https://github.com/your-username/moringa-ai-go-toolkit]((https://github.com/Velma96/capstone-AI)
 
 Contents:
 
