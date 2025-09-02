@@ -177,7 +177,7 @@ Community:
 
 ## Working Codebase
 
-GitHub repo (placeholder):[https://github.com/Velma96/capstone-AI]
+GitHub repo :[https://github.com/Velma96/capstone-AI]
 
 Contents:
 
