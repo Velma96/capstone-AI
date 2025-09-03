@@ -70,23 +70,23 @@ cd go-projects/todo-app
 ## 5. AI Prompt Journal
 
 ### Prompt 1: 
-**"I'm learning Go, coming from Python. Could you explain Go’s type system by comparing it to Python’s dynamic typing, especially around variables and function parameters?"**
+*"I'm learning Go, coming from Python. Could you explain Go’s type system by comparing it to Python’s dynamic typing, especially around variables and function parameters?"*
 
 ### Prompt 2:
-**"I’ve learned about goroutines in Go. Could you help me understand:
+*"I’ve learned about goroutines in Go. Could you help me understand:*
 
-Why Go uses goroutines instead of OS threads?
+*Why Go uses goroutines instead of OS threads?*
 
-What are the performance implications?
+*What are the performance implications?*
 
-How would scaling to millions of goroutines compare to Python’s async/await or Java threads?"**
+*How would scaling to millions of goroutines compare to Python’s async/await or Java threads?"*
 
 
 ### Prompt 3:
-**"Here’s how I understand Go’s slices:
-‘A slice in Go is like a view of an array. It points to an underlying array, and changing the slice can change the original array. Slices also keep track of length and capacity.’
+*"Here’s how I understand Go’s slices:*
+*‘A slice in Go is like a view of an array. It points to an underlying array, and changing the slice can change the original array. Slices also keep track of length and capacity.’*
 
-Could you check my explanation? What did I get right, and what am I missing?"**
+*Could you check my explanation? What did I get right, and what am I missing?"*
 
 ## 6. Complete Setup Guide
 
