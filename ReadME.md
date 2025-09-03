@@ -70,32 +70,23 @@ cd go-projects/todo-app
 ## 5. AI Prompt Journal
 
 ### Prompt 1: 
-**"I need a complete Go project for a todo list application with REST API and CLI. Please provide the full project structure and all necessary files."**
-
-*AI Response:* Provided complete project structure with models, storage, service, handlers, and CLI components.
-
-*Evaluation:* Excellent! Gave a production-ready structure with proper separation of concerns.
+**"I'm learning Go, coming from Python. Could you explain Go’s type system by comparing it to Python’s dynamic typing, especially around variables and function parameters?"**
 
 ### Prompt 2:
-**"I'm getting import errors. How do I fix 'missing go.sum entry' and dependency issues?"**
+**"I’ve learned about goroutines in Go. Could you help me understand:
 
-*AI Response:* Provided step-by-step troubleshooting:
-```bash
-cd todo-app
-go mod init todo-app
-go get github.com/gorilla/mux
-go get github.com/google/uuid
-go mod tidy
-```
+Why Go uses goroutines instead of OS threads?
 
-*Evaluation:* Perfect solution. Fixed the dependency issues completely.
+What are the performance implications?
+
+How would scaling to millions of goroutines compare to Python’s async/await or Java threads?"**
+
 
 ### Prompt 3:
-**"I'm getting 'undefined: time' errors in my Go code. How do I fix import issues?"**
+**"Here’s how I understand Go’s slices:
+‘A slice in Go is like a view of an array. It points to an underlying array, and changing the slice can change the original array. Slices also keep track of length and capacity.’
 
-*AI Response:* Identified missing import statements and provided corrected files with proper import declarations.
-
-*Evaluation:* Spot-on diagnosis. Fixed the compilation errors.
+Could you check my explanation? What did I get right, and what am I missing?"**
 
 ## 6. Complete Setup Guide
 
