@@ -1,21 +1,4 @@
-# Go (Golang) – A Beginner's Toolkit with Todo App Example
-
-##  Quick Start
-
-```bash
-# Clone and setup
-git clone <your-repo-url>
-cd todo-app
-go mod tidy
-go run ./cmd/server
-```
-
-*In another terminal:*
-```bash
-cd todo-app
-go build -o todo ./cmd/cli
-./todo list
-```
+# Go (Golang) – A Beginner's Toolkit with Todo App As my Example
 
 ## 1. Title & Objective
 
@@ -63,7 +46,6 @@ go version
 
 ### Create Project Workspace
 ```bash
-mkdir -p go-projects/todo-app
 cd go-projects/todo-app
 ```
 
@@ -89,35 +71,31 @@ cd go-projects/todo-app
 *Could you check my explanation? What did I get right, and what am I missing?"*
 
 ## 6. Complete Setup Guide
+### Step 1: Fork and clone
 
-### Step 1: Initialize Project
 ```bash
+# Clone and setup
+git clone <your-repo-url>
 cd todo-app
-go mod init todo-app
 ```
-
 ### Step 2: Install Dependencies
+
 ```bash
 go get github.com/gorilla/mux
 go get github.com/google/uuid
 go mod tidy
+go run ./cmd/server
 ```
 
-### Step 3: Create Project Structure
-```bash
-mkdir -p cmd/server cmd/cli internal/models internal/storage internal/handlers internal/service pkg/utils
-```
-
-### Step 4: Add All Project Files
-*Create all the files from the complete example provided in the previous response*
-
-### Step 5: Test Build
+*In another terminal:*
 ```bash
 cd todo-app
-go build ./...
+go build -o todo ./cmd/cli
+./todo list
 ```
 
-### Step 6: Run the Application
+
+### Step 3: Run the Application
 ```bash
 # Terminal 1 - Start server
 cd todo-app
@@ -211,15 +189,15 @@ go run ./cmd/server --port=8081
 
 ## 12. Learning Outcomes
 
-By completing this project, you'll understand:
+By completing this project, I've understood:
 
-- ✅ Go project structure and organization
-- ✅ HTTP server creation with Gorilla Mux
-- ✅ CLI application development
-- ✅ Struct usage for data modeling
-- ✅ Error handling patterns in Go
-- ✅ Package management with Go modules
-- ✅ REST API design principles
+-  Go project structure and organization
+-  HTTP server creation with Gorilla Mux
+-  CLI application development
+-  Struct usage for data modeling
+-  Error handling patterns in Go
+-  Package management with Go modules
+-  REST API design principles
 
 ## 13. Next Steps
 
@@ -252,8 +230,12 @@ cd todo-app
 go run ./cmd/server
 ```
 
-## Licence
+---
 
-You now have a complete, working Todo application in Go! This project gives you an excellent foundation in Go programming and web development concepts.
+##  License
+
+This project is licensed under the [MIT License](LICENSE)
+
+---
 
 
